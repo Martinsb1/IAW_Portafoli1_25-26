@@ -32,13 +32,17 @@ export default function Main(){
         <blockquote>
           "Gracias a Digital Evolution S.A. ahora nuestra web es más rápida y segura."
         </blockquote>
-        <cite>— Empresa XYZ</cite>
+        <cite>— MopisCorp</cite>
       </section>
 
+
+    {/*El enlace funciona con outlook*/}
       <section class="cta">
         <h2>¿Necesitas ayuda tecnológica?</h2>
         <p>Contáctanos y recibe una asesoría gratuita.</p>
-        <button class="contact-btn">Solicitar Información</button>
+        <a href="mailto:msb00@iesemilidarder.com?subject=Solicitud%20de%20información&body=Hola%20DigitalEvolution%20S.A,%20quiero%20recibir%20más%20detalles%20sobre%20sus%20servicios." class="contact-btn">
+          Solicitar Información
+        </a>
       </section>
      
       </main>

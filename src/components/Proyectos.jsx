@@ -26,7 +26,7 @@ export default function Proyectos() {
         <h3>¿Quieres saber más?</h3>
         <p>
           Puedes ver el código completo de mis proyectos en{" "}
-          <a href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Martinsb1" target="_blank" rel="noopener noreferrer">
             mi GitHub
           </a>{" "}
           o contactarme directamente para colaborar.
