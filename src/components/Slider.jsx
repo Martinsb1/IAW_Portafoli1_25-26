@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 export default function ImageSlider() {
   const settings = {
     dots: true,
+    arrows: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -17,13 +18,13 @@ export default function ImageSlider() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <img src="https://picsum.photos/id/1018/600/300" />
+          <img src="/BudgetCalculator.jpg" alt="BudgetCalculator" />
         </div>
         <div>
-          <img src="https://picsum.photos/id/1024/600/300" />
+          <img src="/Tours.jpg" alt="Tours" />
         </div>
         <div>
-          <img src="https://picsum.photos/id/1037/600/300" />
+          <img src="/ReactNotes.jpg" alt="ReactNotes" />
         </div>
       </Slider>
     </div>
