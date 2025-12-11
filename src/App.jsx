@@ -6,7 +6,9 @@ import Proyectos from "./components/Proyectos.jsx"
 import AboutMe from "./components/AboutMe.jsx"; 
 import Contact from "./components/Contact.jsx";
 import Newsletter from "./components/NewsLetter.jsx";
+
 import OffersPage from "./components/OffersPage.jsx";
+
 import "./App.css";
 
 
@@ -20,7 +22,9 @@ export default function App() {
         <Route path="/aboutme" element={<AboutMe/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/newsletter" element={<Newsletter/>}/>
+
         <Route path="/offers" element={<OffersPage/>}/>
+
       </Routes>
       <Footer/>
     </BrowserRouter>

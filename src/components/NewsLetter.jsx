@@ -1,10 +1,14 @@
 import { useNavigate } from "react-router-dom";
+
 export default function Newsletter() {
   const navigate = useNavigate();
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate("/offers");
-  }
+   
+    navigate("/offers"); 
+  };
+
   return (
     <div className="newsletter-container">
       <h2>Suscríbete a nuestro Newsletter</h2>
